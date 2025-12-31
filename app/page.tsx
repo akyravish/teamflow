@@ -1,7 +1,11 @@
+import { HeroHeader } from '@/components/header';
+import HeroSection from '@/components/hero-section';
+
 export default function Home() {
 	return (
 		<div>
-			<h1>Hello World</h1>
+			<HeroHeader />
+			<HeroSection />
 		</div>
 	);
 }
